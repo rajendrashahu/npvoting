@@ -1,21 +1,34 @@
-<nav>
-      <div class="container-fluid">
-        <a href="index.php"><img src="assets/Voting Machine Logo.jpg" width="10%" alt="Logo"></a>
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="about.php">ABOUT US
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="features_list.php">Features</a></li>
-              <li><a href="device_list.php">Device</a></li>
-            </ul>
-          </li>
-          <li><a href="timeline.php">TIMELINE</a></li>
-          <li><a href="certification.php">CERTIFICATIONS</a></li>
-          <li><a href="award_list.php">AWARDS & RECOGNITION</a></li>
-          <li><a href="feedback.php">CUSTOMER FEEDBACK</a></li>
-          <li><a href="news_list.php">NEWS & EVENTS</a></li>
-          <li><a href="contact.php">CONTACT US</a></li>
-        </ul>
-      </div>
-    </nav>
+<div class="navigation">
+<ul class="nav justify-content-center">
+  <a  href="index.php"> <img id="nav-logo" src="assets/Voting Machine Logo.jpg" width=50rem; alt="logo"></a>
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          about us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">features</a>
+          <a class="dropdown-item" href="#">device</a>
+        </div>
+  <li class="nav-item">
+    <a class="nav-link active" href="timeline.php">timeline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#gallery.php">gallery</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="certification.php">certifications</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="award_list.php">awards & recognition</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="feedback.php">customer feedback</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="news_list.php">news & events</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.php">contact us</a>
+  </li>
+</ul>
+</div>

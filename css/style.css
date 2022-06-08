@@ -4,29 +4,45 @@
 .top-head {
     background-color: #E42F28;
     color: white;
-    text-align: end;
     display: flex;
     justify-content: right;
-    margin: 0%;
-    padding: 0%;
+    padding-right: 3em;
+    padding-top: 0.7em;
 }
 
-.container-fluid {
-
-    display: flex;
-    border-style: none;
-    background-color: #031A8E;
-    justify-content: center;
-    align-content: center;
+.navigation ul {
+    background-color: #1D0DE1;
 }
 
-.container-fluid img {
-    margin-right: 25%;
+
+#nav-logo {
+    margin-right: 20rem;
 }
 
-ul {
-    padding-top: 1%;
-    align-content: center;
+.navigation li{
+    padding-top: 1.8em;
+}
+
+.navigation li a {
+    text-transform: uppercase;
+}
+
+.navigation li a:hover {
+    background-color: #E42F28;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #E42F28;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background-color: #1D0DE1 !important;
+    color: white;
 }
 
 .nav-menu-name {
@@ -36,6 +52,47 @@ ul {
     text-align: center;
     font-size: 1.3em;
 }
+
+/*Start of Banner section*/
+.container{
+    background-image: url("assets/banner-img.jpg");
+}
+
+.hero-banner h1 {
+    font-size: 48px;
+}
+.hero-banner .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+.hero-banner .btn-primary {
+    color: #2f2f41;
+    background-color: rgba(1, 164, 121, 0.1);
+    border-color: #01a479;
+}
+.hero-banner .btn:before {
+    content: "";
+    background: #ed5561;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.hero-banner .btn:hover:before {
+    width: 100%;
+}
+
+/* End of Header and Banner section*/
+
+/*About us Section*/
 
 .about-section {
     margin-right: 8%;
