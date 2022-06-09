@@ -1,5 +1,5 @@
 <div class="about-section">
-    <p class="nav-menu-name">-ABOUT US-</p>
+    <h2>-ABOUT US-</h2>
     <h3>INTRODUCTION</h3>
     <p style="text-indent: 50px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore

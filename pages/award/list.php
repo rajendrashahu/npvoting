@@ -1,5 +1,5 @@
 <div class="award-section">
-  <h1 class="nav-menu-name">-AWARD & RECOGNITION-</h1>
+  <h2>-AWARD & RECOGNITION-</h2>
 <div class="bg-light py-5 service-20">
     <div class="container">
         <!-- Row  -->

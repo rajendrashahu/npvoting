@@ -1,7 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
 
+/*Top Nav-Detail*/
 .top-head {
+    font-size: 15px;
     background-color: #E42F28;
     color: white;
     display: flex;
@@ -10,8 +12,14 @@
     padding-top: 0.7em;
 }
 
+/* End of Top Nav-Detail*/
+
+/*Navigation-Section*/
+
 .navigation ul {
     background-color: #1D0DE1;
+    align-items: center;
+    
 }
 
 
@@ -20,11 +28,16 @@
 }
 
 .navigation li{
-    padding-top: 1.8em;
+    justify-content: center;
+    align-content: center;
+    display: table;
+    vertical-align: middle;
 }
 
 .navigation li a {
+    font-size: 18px;
     text-transform: uppercase;
+    color: white;
 }
 
 .navigation li a:hover {
@@ -50,22 +63,132 @@
     color: white;
 }
 
-.nav-menu-name {
+@media only screen and (max-width: 1440px) {
+
+    .top-head {
+        font-size: 10px;
+        background-color: #E42F28;
+        color: white;
+        display: flex;
+        justify-content: right;
+        padding-right: 1em;
+        padding-top: 0.7em;
+    }
+    
+
+    .navigation li a {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: white;
+    }
+    #nav-logo {
+        margin-right: 0rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .navigation li a {
+        display: none;
+    }
+
+    .top-head {
+        font-size: 10px;
+        background-color: #E42F28;
+        color: white;
+        display: flex;
+        justify-content: right;
+        padding-right: 1em;
+        padding-top: 0.7em;
+    }
+}
+
+/*End of Navigation_Section*/
+
+/*Every section name*/
+h2 {
     font-weight: bold;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 33px;
+    text-transform: uppercase;
 }
 
-/*Start of Banner section*/
-.carousel img{
-    height: 10em;
-    top: 0;
-    left: 0;
-    min-height: 70em;
-  }
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase; 
+}
 
+.page-title{
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.my-3{
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 15px;
+}
+/*End of Every section name*/
+
+/*Start of Banner section*/
+.banner .container{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 50em;
+    object-fit: cover;
+}
+.banner-icons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+ol{
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 0% !important;
+    padding-bottom: 10em;
+    
+}
+
+.carousel-indicators li{
+    justify-content: center;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: white;
+}
 
 /* End of Header and Banner section*/
 
@@ -76,30 +199,6 @@
     margin-left: 8%;
 }
 
-.countdown {
-    justify-content: center;
-    display: flex;
-}
-
-.countdown p {
-    text-align: center;
-    align-items: center;
-}
-
-.count-two,
-.count-one {
-    background-color: #1D0DE1;
-    color: white;
-    border-radius: 65%;
-    font-size: 2em;
-    padding: 3%;
-    margin-left: 1%;
-}
-
-.count-two {
-    background-color: #E42F28;
-}
-
 .countdown-title {
     display: flex;
     justify-content: center;
@@ -107,25 +206,42 @@
 }
 
 .countdown-title p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.first-count, .second-count{
+    text-align: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.count-two,
+.count-one {
+    align-content: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 6em;
+    height: 6em;  
+    background-color: #1D0DE1;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    box-sizing: border-box;
+    box-shadow: 2px 4px #8d97ad;
+}
+
+.count-two {
+    background-color: #E42F28;
+}
+
+
+.count-two p,
+.count-one p{
     font-size: 1.3em;
     font-weight: bold;
-    margin-top: 1%;
-    padding-left: 4.5%;
-    padding-right: 4%;
-}
-
-.device-title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.device-title p {
-    font-size: 1.5em;
-    margin-top: 2%;
-    margin-bottom: 1%;
-    padding-left: 11.2%;
-    padding-right: 11%;
+    margin: 0%;
 }
 
 .device-description {
@@ -141,43 +257,14 @@
     text-align: center;
 }
 
-.device-one,
-.device-two,
-.device-three,
-.device-four {
-    margin-right: 1%;
+.card {
+    margin-right: 2%;
     color: black;
     box-sizing: border-box;
     border-radius: 10px;
-    box-shadow: 7px 7px #eaeaea;
-}
-
-.device-description img {
-    margin-top: 5%;
-}
-
-.read-more-btn {
-
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 1em;
-}
-
-.button {
-    background-color: #e1e1e1;
-    /* Green */
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-
-.button:hover {
-    background-color: #4CAF50;
-    color: white
+    box-shadow: 2px 2px #eaeaea;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
 /*Device list Detail*/
@@ -692,6 +779,14 @@
     font-size: 16px;
 }
 
+/*subscribe section*/
+.subscribe-section{
+    background-color: #E42F28;
+    color: white;
+}
+/* end of subscribe section*/
+
+/*Footer Section*/ 
 
 .footer {
     background-color: #E42F28;
@@ -703,3 +798,5 @@
 a {
     color: white;
 }
+
+/*end of footer section*/ 

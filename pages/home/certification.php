@@ -1,5 +1,5 @@
 <div class="certification-section">
-    <p class="nav-menu-name">-CERTIFICATION-</p>
+    <<h2>-certification-</h2>
     <div class="certificates">
       <div class="certificates-iso">
         <div class="iso-img-detail">

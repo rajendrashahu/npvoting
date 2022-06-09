@@ -1,5 +1,5 @@
-<div class="about-section">
-    <h2 style="font-weight: bold;">Contact</h2>
+<div class="contact-section">
+    <h2>-contact-</h2>
     <p style="text-indent: 50px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
       <!-- Column -->
       <div class="col-md-8 text-center">
-        <h3 class="my-3">Upcoming Events</h3>
+        <h3 class="my-3"></h3>
         <h6 class="subtitle font-weight-normal">You can relay on our amazing features list and also our customer services will be great experience for you without doubt</h6>
       </div>
       <!-- Column -->

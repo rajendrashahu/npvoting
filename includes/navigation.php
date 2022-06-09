@@ -6,8 +6,8 @@
           about us
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">features</a>
-          <a class="dropdown-item" href="#">device</a>
+          <a class="dropdown-item" href="features_list.php">features</a>
+          <a class="dropdown-item" href="device_list.php">device</a>
         </div>
   <li class="nav-item">
     <a class="nav-link active" href="timeline.php">timeline</a>

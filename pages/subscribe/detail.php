@@ -1,6 +1,5 @@
-<div class="about-section">
-    <h2 style="font-weight: bold;">Subscribe</h2>
-    
+<div class="subscribe-section">
+    <h3 class="page-title">subscribe</h3>
     <div class="device-description">
       <input type="text">
     </div>

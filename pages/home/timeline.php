@@ -1,5 +1,5 @@
 <div class="timeline-section">
-    <p class="nav-menu-name" style="color: white;">-TIMELINE-</p>
+    <h2 class="page-title">-timeline-</h2>
     <div class="container">
       <div class="main-timeline">
 

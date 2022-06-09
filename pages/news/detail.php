@@ -1,5 +1,5 @@
 <div class="news-section">
-  <h1 class="nav-menu-name" >-NEWS & EVENTS-</h1>
+  <h2>-NEWS & EVENTS-</h2>
 <div class="blog-home2 py-5">
   <div class="container">
     <!-- Row  -->
