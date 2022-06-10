@@ -1,0 +1,1 @@
+<?php include_once("pages/certification/certification_list.php") ?>

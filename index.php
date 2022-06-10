@@ -9,7 +9,8 @@
     <?php include_once("home/about.php") ?>
     <hr>
     <?php include_once("device_list.php") ?>
-    <hr>
+    <?php include_once("timeline_list.php") ?>
+    <?php include_once("certification_list.php") ?>
     <?php include_once("includes/footer.php") ?>
 </body>
 

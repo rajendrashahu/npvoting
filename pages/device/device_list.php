@@ -1,5 +1,5 @@
 <div class="device">
-    <h2>devices</h2>
+    <h2>-devices-</h2>
     <div class="blog-home2 py-5">
         <div class="container">
             <!-- Row  -->
@@ -19,7 +19,7 @@
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">23</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">You should have eagle's eye on new trends and techonogies</a></h5>
                         <p class="mt-3">Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more</a>
+                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
@@ -29,7 +29,7 @@
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">23</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">New Seminar on Newest Food Recipe from World's Best</a></h5>
                         <p class="mt-3">Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more</a>
+                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
@@ -39,10 +39,13 @@
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">23</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Learn from small things to create something bigger.</a></h5>
                         <p class="mt-3">Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more</a>
+                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="readmore-btn">
+        <a href="about.php" class="next">READ MORE &raquo;</a>
     </div>
 </Div>
