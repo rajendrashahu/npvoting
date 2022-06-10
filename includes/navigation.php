@@ -1,34 +1,34 @@
-<div class="navigation">
-<ul class="nav justify-content-center">
-  <a  href="index.php"> <img id="nav-logo" src="assets/Voting Machine Logo.jpg" width=50rem; alt="logo"></a>
-<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          about us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="features_list.php">features</a>
-          <a class="dropdown-item" href="device_list.php">device</a>
+
+<div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="index.php" class="navbar-brand">
+                <img src="img/logo.jpg" height="50" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                  <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">about us</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">features</a>
+                            <a href="#" class="dropdown-item">devices</a>
+                           
+                        </div>
+                    </div>
+                  	
+                    <a class="nav-link active" href="timeline.php">timeline</a>
+                    <a class="nav-link" href="#gallery.php">gallery</a>
+                    <a class="nav-link" href="certification.php">certifications</a> 
+                    <a class="nav-link" href="award_list.php">awards & recognition</a>
+                    <a class="nav-link" href="feedback.php">customer feedback</a>
+                    <a class="nav-link" href="news_list.php">news & events</a>
+                    <a class="nav-link" href="contact.php">contact us</a>
+                    
+                </div>
+            </div>
         </div>
-  <li class="nav-item">
-    <a class="nav-link active" href="timeline.php">timeline</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#gallery.php">gallery</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="certification.php">certifications</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="award_list.php">awards & recognition</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="feedback.php">customer feedback</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="news_list.php">news & events</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="contact.php">contact us</a>
-  </li>
-</ul>
+    </nav>
 </div>
