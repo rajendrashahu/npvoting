@@ -101,9 +101,16 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="/"> <b>Nepal Voting Machine</b>.</a>
+    <div class="footer-copyright text-center py-3">
+      <div class="copywright-owner">
+      © 2020 Copyright:
+      <a href="index.php"> <b>Nepal Voting Machine</b>.</a>
       All Rights Reserved.
+      </div>
+      
+      <div class="copywright-design">
+      Designed and Maintained by
+      <a href="pioneersoftech.com"> <b>pioneesoftech.com</b>.</a>
     </div>
     <!-- Copyright -->
 

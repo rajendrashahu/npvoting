@@ -583,9 +583,10 @@ p {
 
 /*news & events section*/
 
+
 /*Newsletter subscription*/
 .subscribe-area {
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-image: linear-gradient(to top, #00BDE1 0%, #0062ff 100%);
 }
 
 .pb-50 {
@@ -639,6 +640,7 @@ p {
 }
 
 .subscribe2-wrapper .subscribe-form button {
+    float: right;
     background-size: 200% auto;
     border: none;
     border-radius: 10px;
@@ -648,7 +650,7 @@ p {
     line-height: 1;
     padding: 15px 45px;
     transition: all 0.3s ease 0s;
-    background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 51%, #1D0DE1 100%);
+    background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 50%, #1D0DE1 100%);
     color: white;
 }
 
@@ -659,11 +661,14 @@ p {
     color: #fff;
 }
 
+label #subscribe-error {
+    color: red;
+}
+
 /*footer section*/
 
 .footer {
     margin-top: 2%;
-    margin-bottom: 1%;
 }
 
 .list-unstyled p {
@@ -680,7 +685,14 @@ p {
 .footer-copyright.text-center.py-3 {
     background-color: #E42F28;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
+
+.copywright-design{
+    text-align: center;
+}
+
 
 .footer-copyright.text-center.py-3 a{
     color: white;
@@ -704,7 +716,7 @@ p {
 @media only screen and (max-width: 1199px) {
     .subscribe2-wrapper .subscribe-form input {
         padding-left: 10px;
-        width: 50%;
+        width: 60%;
 
     }
 
@@ -742,6 +754,13 @@ p {
 
     .certification .container .row .col-lg-4 {
         margin: 20px 0px;
+    }
+
+    /*newsletter subscription*/
+    .subscribe2-wrapper .subscribe-form input {
+        padding-left: 10px;
+        width: 50%;
+
     }
 }
 
@@ -820,9 +839,23 @@ p {
     }
 }
 
-@media only screen and (max-width:424px) {
+@media only screen and (max-width:424px)  {
     .subscribe2-wrapper .subscribe-form input {
-        width: 70%;
+        width: 50%;
         margin-bottom: 2%;
+    }
+
+    .subscribe2-wrapper .subscribe-form button {
+        background-size: 200% auto;
+        border: none;
+        border-radius: 10px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        padding: 15px 30px;
+        transition: all 0.3s ease 0s;
+        background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 50%, #1D0DE1 100%);
+        color: white;
     }
 }
