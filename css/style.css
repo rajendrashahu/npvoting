@@ -69,12 +69,6 @@
     color: white;
 }
 
-@media only screen and (min-width: 1440px) {
-    .container-fluid img {
-        padding-left: 4em;
-    }
-
-}
 
 /*banner section*/
 
@@ -270,7 +264,7 @@ p {
 
 /*timeline section*/
 
-.page-title{
+.page-title {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     color: white;
@@ -278,7 +272,7 @@ p {
 
 .timeline-section {
     background-color: #E42F28;
-    padding-bottom:2em;
+    padding-bottom: 2em;
 }
 
 .timeline-content {
@@ -472,7 +466,7 @@ p {
 
 /*certification section*/
 
-.certification{
+.certification {
     padding-bottom: 1em;
 }
 
@@ -530,7 +524,7 @@ p {
 }
 
 .certification .container .card:hover .card-content h4,
- .card:hover .card-content h5 {
+.card:hover .card-content h5 {
     transform: translateY(10px);
     opacity: 1;
 }
@@ -581,14 +575,88 @@ p {
     font-size: 1.3rem;
 }
 
-@media(max-width: 991.5px) {
-    .certification .container {
-        margin-top: 20px;
-    }
 
-    .certification .container .row .col-lg-4 {
-        margin: 20px 0px;
-    }
+
+/*awards & recognition section*/
+/*add css to award section*/
+
+
+/*news & events section*/
+
+/*Newsletter subscription*/
+.subscribe-area {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.subscribe-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.subscribe-wrapper {
+    overflow: hidden;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe2-wrapper .subscribe-form input {
+
+    background-size: 200% auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 48px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.subscribe2-wrapper .subscribe-form button {
+    background-size: 200% auto;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 15px 45px;
+    transition: all 0.3s ease 0s;
+    background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 51%, #1D0DE1 100%);
+    color: white;
+}
+
+
+.subscribe2-wrapper .subscribe-form button:hover {
+    /* change the direction of the change here */
+    background-position: right center;
+    color: #fff;
 }
 
 /*footer section*/
@@ -600,9 +668,47 @@ p {
 
 .list-unstyled p {
     text-indent: 0em;
+    font-size: 1rem;
 }
 
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer-copyright.text-center.py-3 {
+    background-color: #E42F28;
+    color: white;
+}
+
+.footer-copyright.text-center.py-3 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
 /*JQuery Media*/
+
+/* for screen size: 991px*/
+@media only screen and (min-width: 1440px) {
+    .container-fluid img {
+        padding-left: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .subscribe2-wrapper .subscribe-form input {
+        padding-left: 10px;
+        width: 50%;
+
+    }
+
+}
 
 /* for screen size: 991px*/
 @media only screen and (max-width: 991px) {
@@ -626,6 +732,16 @@ p {
 
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0;
+    }
+
+    /*certification section*/
+    .certification .container {
+        margin-top: 20px;
+        padding-bottom: 5em !important;
+    }
+
+    .certification .container .row .col-lg-4 {
+        margin: 20px 0px;
     }
 }
 
@@ -694,5 +810,19 @@ p {
 
     .main-timeline .title {
         margin-bottom: 10px;
+    }
+
+    /*newsletter subscription*/
+    .subscribe2-wrapper .subscribe-form input {
+        padding-left: 10px;
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width:424px) {
+    .subscribe2-wrapper .subscribe-form input {
+        width: 70%;
+        margin-bottom: 2%;
     }
 }

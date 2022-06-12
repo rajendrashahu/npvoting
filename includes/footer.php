@@ -16,16 +16,16 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="#!">HOME</a>
+              <a href="index.php">HOME</a>
             </li>
             <li>
-              <a href="#!">ABOUT</a>
+              <a href="about.php">ABOUT</a>
             </li>
             <li>
-              <a href="#!">TIMELINE</a>
+              <a href="timeline_list.php">TIMELINE</a>
             </li>
             <li>
-              <a href="#!">CERTIFICATION</a>
+              <a href="certification_list.php">CERTIFICATION</a>
             </li>
             <li>
               <a href="#!">PRIVACY POLICY</a>
@@ -47,16 +47,16 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="#!">AWARDS & RECOGNITION</a>
+              <a href="award.php">AWARDS & RECOGNITION</a>
             </li>
             <li>
-              <a href="#!">CUSTOMER FEEDBACK</a>
+              <a href="feedback_list.php">CUSTOMER FEEDBACK</a>
             </li>
             <li>
-              <a href="#!">GALLERY</a>
+              <a href="gallery.php">GALLERY</a>
             </li>
             <li>
-              <a href="#!">NEWS & EVENTS</a>
+              <a href="news_list.php">NEWS & EVENTS</a>
             </li>
           </ul>
 
@@ -102,7 +102,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="/"> Nepal Voting Machine.</a>
+      <a href="/"> <b>Nepal Voting Machine</b>.</a>
       All Rights Reserved.
     </div>
     <!-- Copyright -->

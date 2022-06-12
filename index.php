@@ -11,6 +11,9 @@
     <?php include_once("device_list.php") ?>
     <?php include_once("timeline_list.php") ?>
     <?php include_once("certification_list.php") ?>
+    <?php include_once("award_list.php") ?>
+    <?php include_once("news_list.php") ?>
+    <?php include_once("newsletter_subscription.php") ?>
     <?php include_once("includes/footer.php") ?>
 </body>
 
