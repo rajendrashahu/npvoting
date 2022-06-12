@@ -160,6 +160,13 @@ p {
 
 /* Device list*/
 
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 18em;
+}
+
 .py-5 {
     padding-top: 0rem !important;
     padding-bottom: 3rem !important;
@@ -676,10 +683,10 @@ label #subscribe-error {
     font-size: 1rem;
 }
 
-.footer ul li a{
+.footer ul li a {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .footer-copyright.text-center.py-3 {
@@ -689,12 +696,12 @@ label #subscribe-error {
     justify-content: space-around;
 }
 
-.copywright-design{
+.copywright-design {
     text-align: center;
 }
 
 
-.footer-copyright.text-center.py-3 a{
+.footer-copyright.text-center.py-3 a {
     color: white;
     text-decoration: none;
 }
@@ -839,7 +846,7 @@ label #subscribe-error {
     }
 }
 
-@media only screen and (max-width:424px)  {
+@media only screen and (max-width:424px) {
     .subscribe2-wrapper .subscribe-form input {
         width: 50%;
         margin-bottom: 2%;
