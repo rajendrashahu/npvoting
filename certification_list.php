@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <title>Nepal Voting Machine : Certification</title>
@@ -8,15 +7,16 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
+<link rel="stylesheet" href="css/style.css">
 
 <body>
-<?php include_once("includes/topnav.php") ?>
-<?php include_once("includes/navigation.php") ?>
+    <?php include_once("includes/topnav.php") ?>
+    <?php include_once("includes/navigation.php") ?>
 
-<?php include_once("pages/certification/certification_list.php") ?>
+    <?php include_once("pages/certification/certification_list.php") ?>
 
-<?php include_once("includes/newsletter_subscription.php") ?>
-<?php include_once("includes/footer.php") ?>
+    <?php include_once("includes/newsletter_subscription.php") ?>
+    <?php include_once("includes/footer.php") ?>
 </body>
 
 <script>
