@@ -82,6 +82,36 @@
                         <a href="https://www.setopati.com/archive-news/52556" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://clickmandu.com/2017/11/35210.html" target="_blank"><img class="card-img-top" src="img/voting-no-permission.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Nov<span class="d-block">3</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://clickmandu.com/2017/11/35210.html" target="_blank" class="text-decoration-none link">नेपालीले बनाएको भोटिङ मेसिनले निर्वाचन आयोगबाट अझै अनुमति पाएन</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://clickmandu.com/2017/11/35210.html" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://www.setoghar.com/archives/59378" target="_blank"><img class="card-img-top" src="img/voting-machine.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Nov<span class="d-block">3</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.setoghar.com/archives/59378" target="_blank" class="text-decoration-none link">प्रविधिको विकासमा दाजुभाइकाे समर्पण, कम्युनिटी साइरन देखि भाेटिङ मेसिन सम्म, अबका के चाहन्छन् रामलक्ष्मण ?</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://www.setoghar.com/archives/59378" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://www.lokpath.com/story/53783" target="_blank"><img class="card-img-top" src="img/rm-voting-machine.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Aug<span class="d-block">12</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.lokpath.com/story/53783" target="_blank" class="text-decoration-none link">पजुम्ल्याहा युवाको प्राविधिक जादु : बिजुलीको स्वचालित स्वीचदेखि भोटिङ मेसिनसम्म</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://www.lokpath.com/story/53783" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
 
 
 
