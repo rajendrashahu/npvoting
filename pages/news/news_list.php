@@ -105,7 +105,7 @@
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="https://www.lokpath.com/story/53783" target="_blank"><img class="card-img-top" src="img/rm-voting-machine.png" alt="device image"></a>
+                        <a href="https://www.lokpath.com/story/53783" target="_blank"><img class="card-img-top img-responsive" src="img/rm-voting-machine.png" alt="device image"></a>
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Aug<span class="d-block">12</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="https://www.lokpath.com/story/53783" target="_blank" class="text-decoration-none link">पजुम्ल्याहा युवाको प्राविधिक जादु : बिजुलीको स्वचालित स्वीचदेखि भोटिङ मेसिनसम्म</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>

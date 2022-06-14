@@ -8,10 +8,13 @@
 <body>
   <?php include_once("includes/topnav.php") ?>
   <?php include_once("includes/navigation.php") ?>
+  <div class="container">
+    <?php include_once("pages/contact/contact.php") ?>
 
-  <?php include_once("pages/contact/contact.php") ?>
+  </div>
 
   <?php include_once("includes/newsletter_subscription.php") ?>
+
   <?php include_once("includes/footer.php") ?>
 </body>
 

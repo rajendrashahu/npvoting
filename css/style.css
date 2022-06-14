@@ -808,16 +808,27 @@ img.zoom {
 
 
 /*Contact Form*/
-.contact form {
-    margin-top: 3em;
+.contact {
+
     margin-bottom: 3em;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+.contact form {
     justify-content: center;
     box-sizing: border-box;
+    border-radius: 10px;
     border: 1px solid #c6c6c6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    padding: 3%;
+    padding: 4%;
+}
+
+.g-3,
+.gy-3 {
+    --bs-gutter-y: 0rem;
+}
+
+.col-md-6 {
+    margin-top: 3%;
 }
 
 .col-12 button {
@@ -845,9 +856,32 @@ img.zoom {
     color: #fff;
 }
 
+@media only screen and (min-width: 768px) {
 
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
 
+    }
 
+    .map-container {
+        overflow: hidden;
+        padding-bottom: 68%;
+        position: relative;
+        height: 0;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+    }
+
+    .map-container iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
 
 /*JQuery Media*/
 
@@ -911,7 +945,7 @@ img.zoom {
 }
 
 /* for screen size: 767px*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     /*about-section*/
     .about-section {
@@ -988,11 +1022,21 @@ img.zoom {
         width: 50%;
 
     }
+
+    /*contact form*/
+    .contact .row {
+        display: block;
+    }
+
+    .contact .col {
+        padding-top: 5%;
+    }
 }
 
 @media only screen and (max-width:424px) {
+
     .subscribe2-wrapper .subscribe-form input {
-        width: 50%;
+        width: 40%;
         margin-bottom: 2%;
     }
 
@@ -1008,5 +1052,14 @@ img.zoom {
         transition: all 0.3s ease 0s;
         background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 50%, #1D0DE1 100%);
         color: white;
+    }
+
+    /*contact form*/
+    .contact .row {
+        display: block;
+    }
+
+    .contact .col {
+        padding-top: 5%;
     }
 }
