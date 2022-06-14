@@ -7,7 +7,7 @@
     <?php include_once("includes/topnav.php") ?>
     <?php include_once("includes/navigation.php") ?>
 
-    <?php include_once("pages/device/list.php") ?>
+    <?php include_once("pages/device/detail.php") ?>
 
     <?php include_once("includes/newsletter_subscription.php") ?>
     <?php include_once("includes/footer.php") ?>

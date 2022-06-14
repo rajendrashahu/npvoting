@@ -110,7 +110,5 @@
             </div>
         </div>
     </section>
-    <div class="readmore-btn">
-        <a href="awards_detail.php" class="next">READ MORE &raquo;</a>
-    </div>
+    
 </div>

@@ -40,7 +40,5 @@
 
         </div>
     </div>
-    <div class="readmore-btn">
-        <a href="about.php" class="next">READ MORE &raquo;</a>
-    </div>
+    
 </div>

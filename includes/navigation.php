@@ -13,7 +13,7 @@
                         <a href="home/about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">about us</a>
                         <div class="dropdown-menu">
                             <a href="feature.php" class="dropdown-item">features</a>
-                            <a href="device_detail.php" class="dropdown-item">devices</a>
+                            <a href="device_list.php" class="dropdown-item">devices</a>
 
                         </div>
                     </div>
