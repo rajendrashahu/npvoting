@@ -21,6 +21,7 @@
             The voting machine is equipped with a 20 Wh battery that provides an uninterrupted power supply in case of a power outage. The election can go smoothly for a whole day with 12 hours of power backup. Moreover, its' charging mechanism has been designed, keeping Nepali geographical diversity into consideration. The voting machine can be charged with solar or batteries from motorbikes and other vehicles in rural places without electricity.
         </p>
         </div>
+        
 
     </div>
     <div class="readmore-btn">
