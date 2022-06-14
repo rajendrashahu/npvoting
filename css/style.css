@@ -164,6 +164,13 @@ p {
 }
 
 
+/*Features Section*/
+
+.feature-section {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
 /* Device list*/
 
 .card-img,
@@ -188,7 +195,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 10px;
+    margin: none;
     padding: 15px 45px;
     text-transform: uppercase;
     transition: 0.5s;
@@ -557,6 +564,10 @@ img.zoom {
     padding-bottom: 1em;
 }
 
+.certification .row {
+    justify-content: space-between;
+}
+
 .certification .container {
     margin-top: 4em;
     padding-bottom: 4em;
@@ -797,13 +808,45 @@ img.zoom {
 
 
 /*Contact Form*/
-.contact{
+.contact form {
     margin-top: 3em;
     margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 3%;
 }
+
+.col-12 button {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 10px;
+}
+
+.col-12 button {
+    background-image: linear-gradient(to right, #1D0DE1 0%, #E42F28 51%, #1D0DE1 100%);
+    color: white;
+}
+
+.col-12 button:hover {
+    background-position: right center;
+    color: #fff;
+}
+
+
+
 
 
 /*JQuery Media*/

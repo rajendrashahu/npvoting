@@ -9,13 +9,13 @@
 						<h2>subscribe newsletter</h2>
 					</div>
 				</div>
+
 				<div class="col-md-8">
 					<div class="subscribe-wrapper subscribe2-wrapper mb-15">
 						<div class="subscribe-form">
-							<form action="#" method="POST" id="subscribe_form" onclick="return checkSubscribe()">
+							<form class="needs-validation" action="#" method="POST" id="subscribe_form" onclick="return checkSubscribe()">
 								<button type="submit" name="btn_subscribe">subscribe &raquo;</button>
-								<input class="form-control" type="email" name="subscribe" id="subscribe" placeholder="Enter your email address" required>
-								<label id="subscribe-error" class="error" for="subscribe" style="color:#cd3700">This field is required.</label>
+								<input type="email" name="subscribe" id="subscribe" placeholder="Enter your email address" required>
 							</form>
 						</div>
 					</div>
