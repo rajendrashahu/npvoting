@@ -15,33 +15,76 @@
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-one.jpg" alt="device image"></a>
+                        <a href="https://english.headlinenepal.com/details/17020" target="_blank"><img class="card-img-top" src="img/news-one.jpg" alt="device image"></a>
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Nov<span class="d-block">28</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="https://english.headlinenepal.com/details/17020" target="_blank" class="text-decoration-none link">UML General Convention Election Used 100 Voting Machine Above 5 Million</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="https://english.headlinenepal.com/details/17020" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-two.jpg" alt="device image"></a>
+                        <a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference" target="_blank"><img class="card-img-top" src="img/news-two.jpg" alt="device image"></a>
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">30</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference" target="_blank" class="text-decoration-none link">UML’s decision to use Nepal-made electronic voting machines</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-three.jpeg" alt="device image"></a>
+                        <a href="https://www.southasiatime.com/2019/10/16/nrna-to-use-electronic-voting-machine-made-in-nepal" target="_blank"><img class="card-img-top" src="img/news-three.jpeg" alt="device image"></a>
                         <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">16</span></div>
                         <h5 class="font-weight-medium mt-3"><a href="https://www.southasiatime.com/2019/10/16/nrna-to-use-electronic-voting-machine-made-in-nepal" target="_blank" class="text-decoration-none link">NRNA to use electronic voting machine made in Nepal</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="https://www.southasiatime.com/2019/10/16/nrna-to-use-electronic-voting-machine-made-in-nepal" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference" target="_blank"><img class="card-img-top" src="img/cpn-uml.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">30</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference/" target="_blank" class="text-decoration-none link">UML’s decision to use Nepal-made electronic voting machines in general conference</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference/" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://en.setopati.com/political/157476" target="_blank"><img class="card-img-top" src="img/voting-uml.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Nov<span class="d-block">30</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://en.setopati.com/political/157476" target="_blank" class="text-decoration-none link">Voting for UML leadership concludes, results within 3 hours</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://en.setopati.com/political/157476" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://nepaliheadlines.com/demand-use-electronic-voting-machine-made-nepal/" target="_blank"><img class="card-img-top" src="img/nepali-voting.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Feb<span class="d-block">8</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://nepaliheadlines.com/demand-use-electronic-voting-machine-made-nepal/" target="_blank" class="text-decoration-none link">DEMAND TO USE ELECTRONIC VOTING MACHINE MADE IN NEPAL</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://nepaliheadlines.com/demand-use-electronic-voting-machine-made-nepal/" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                        <a href="https://www.setopati.com/archive-news/52556" target="_blank"><img class="card-img-top" src="img/nepali-voting.png" alt="device image"></a>
+                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Sep<span class="d-block">1</span></div>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.setopati.com/archive-news/52556" target="_blank" class="text-decoration-none link">भोटिङ मेसिनमा फैलाइएको भ्रम र यथार्थ</a></h5>
+                        <p class="mt-3">Kathmandu, Nepal</p>
+                        <a href="https://www.setopati.com/archive-news/52556" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     </div>

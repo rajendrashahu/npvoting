@@ -6,9 +6,10 @@
 <body>
     <?php include_once("includes/topnav.php") ?>
     <?php include_once("includes/navigation.php") ?>
-    
+
     <?php include_once("pages/feature/index.php") ?>
 
+    <?php include_once("includes/newsletter_subscription.php") ?>
     <?php include_once("includes/footer.php") ?>
 </body>
 
