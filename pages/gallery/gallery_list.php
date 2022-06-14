@@ -1,8 +1,6 @@
 <div class="gallery">
+    <h2>-Gallery-</h2>
     <div class="container page-top">
-
-
-
         <div class="row">
 
 
@@ -58,10 +56,5 @@
 
 
         </div>
-
-
-
-
     </div>
-
 </div>
