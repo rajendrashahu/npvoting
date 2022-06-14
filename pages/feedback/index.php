@@ -15,31 +15,25 @@
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-one.jpg" alt="device image"></a>
-                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Nov<span class="d-block">28</span></div>
-                        <h5 class="font-weight-medium mt-3"><a href="https://english.headlinenepal.com/details/17020" target="_blank" class="text-decoration-none link">UML General Convention Election Used 100 Voting Machine Above 5 Million</a></h5>
-                        <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <iframe width="356" height="288" src="https://www.youtube.com/embed/HVxOEt2BfME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.youtube.com/watch?v=HVxOEt2BfME" target="_blank" class="text-decoration-none link">भगवान बुद्धको मन छुने जीवन कथा || Life Story Of BUDDHA || Biography of Buddha</a></h5>
+                        <a href="https://www.youtube.com/watch?v=HVxOEt2BfME" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-two.jpg" alt="device image"></a>
-                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">30</span></div>
-                        <h5 class="font-weight-medium mt-3"><a href="https://himalsanchar.com/umls-decision-to-use-nepal-made-electronic-voting-machines-in-general-conference" target="_blank" class="text-decoration-none link">UML’s decision to use Nepal-made electronic voting machines</a></h5>
-                        <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <iframe width="356" height="288" src="https://www.youtube.com/embed/huiO8h50eCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.youtube.com/watch?v=huiO8h50eCs" target="_blank" class="text-decoration-none link">20 Akbar Birbal Stories - A Collection of very funny & heart warming witty tales in Nepali Language</a></h5>
+                        <a href="https://www.youtube.com/watch?v=huiO8h50eCs" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="#"><img class="card-img-top" src="img/news-three.jpeg" alt="device image"></a>
-                        <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Oct<span class="d-block">16</span></div>
-                        <h5 class="font-weight-medium mt-3"><a href="https://www.southasiatime.com/2019/10/16/nrna-to-use-electronic-voting-machine-made-in-nepal" target="_blank" class="text-decoration-none link">NRNA to use electronic voting machine made in Nepal</a></h5>
-                        <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="#" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <iframe width="356" height="288" src="https://www.youtube.com/embed/icfNdG3UuDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5 class="font-weight-medium mt-3"><a href="https://www.youtube.com/watch?v=icfNdG3UuDs" target="_blank" class="text-decoration-none link">BUDDHA- Full Story in Nepali 2020 (HD) || सम्पूर्ण बुद्ध जीवनी मात्र २ घण्टामा</a></h5>
+                        <a href="https://www.youtube.com/watch?v=icfNdG3UuDs" target="_blank" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
             </div>
