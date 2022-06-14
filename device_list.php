@@ -1,1 +1,0 @@
-<?php include_once("pages/device/device_list.php") ?>
