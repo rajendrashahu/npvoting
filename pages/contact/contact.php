@@ -19,7 +19,7 @@
                     <label for="validationCustomUsername" class="form-label">E-mail</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter your e-mail" aria-describedby="inputGroupPrepend" required>
+                        <input type="email" class="form-control" id="validationCustomUsername" placeholder="Enter your e-mail" aria-describedby="inputGroupPrepend" required>
                         <div class="invalid-feedback">
                             Please enter a valid email.
                         </div>
