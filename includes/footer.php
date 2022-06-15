@@ -110,7 +110,7 @@
 
       <div class="copywright-design">
         Designed and Maintained by
-        <a href="pioneersoftech.com"><b>pioneesoftech.com</b>.</a>
+        <a href="https://www.pioneersoftech.com" target="_blank"><b>pioneesoftech.com</b>.</a>
       </div>
       <!-- Copyright -->
 
