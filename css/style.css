@@ -794,6 +794,10 @@ img.zoom {
     margin-top: 2%;
 }
 
+.footer footer .container .row ul li a:hover {
+    color: #0062ff;
+}
+
 .list-unstyled p {
     text-indent: 0em;
     font-size: 1rem;
@@ -822,6 +826,22 @@ img.zoom {
     text-decoration: none;
 }
 
+
+/*privacy policy*/
+.privacy .container .row p {
+    text-indent: 0%;
+    justify-content: space-evenly;
+}
+
+.privacy-list {
+    padding-left: 3%;
+}
+
+/*terms & condition*/
+.terms .container .row p {
+    text-indent: 0%;
+    justify-content: space-evenly;
+}
 
 /*Contact Form*/
 .contact {

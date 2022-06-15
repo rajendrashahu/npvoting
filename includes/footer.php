@@ -28,10 +28,10 @@
               <a href="certification_list.php">CERTIFICATION</a>
             </li>
             <li>
-              <a href="#!">PRIVACY POLICY</a>
+              <a href="privacy_policy.php">PRIVACY POLICY</a>
             </li>
             <li>
-              <a href="#!">TERMS & CONDITION</a>
+              <a href="terms.php">TERMS & CONDITION</a>
             </li>
           </ul>
 
@@ -47,13 +47,13 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="award.php">AWARDS & RECOGNITION</a>
+              <a href="award_list.php">AWARDS & RECOGNITION</a>
             </li>
             <li>
-              <a href="feedback_list.php">CUSTOMER FEEDBACK</a>
+              <a href="feedback.php">CUSTOMER FEEDBACK</a>
             </li>
             <li>
-              <a href="gallery.php">GALLERY</a>
+              <a href="gallery_list.php">GALLERY</a>
             </li>
             <li>
               <a href="news_list.php">NEWS & EVENTS</a>
@@ -103,16 +103,16 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
       <div class="copywright-owner">
-      © 2020 Copyright:
-      <a href="index.php"> <b>Nepal Voting Machine</b>.</a>
-      All Rights Reserved.
+        © 2020 Copyright:
+        <a href="index.php"> <b>Nepal Voting Machine</b>.</a>
+        All Rights Reserved.
       </div>
-      
+
       <div class="copywright-design">
-      Designed and Maintained by
-      <a href="pioneersoftech.com"> <b>pioneesoftech.com</b>.</a>
-    </div>
-    <!-- Copyright -->
+        Designed and Maintained by
+        <a href="pioneersoftech.com"><b>pioneesoftech.com</b>.</a>
+      </div>
+      <!-- Copyright -->
 
   </footer>
   <!-- Footer -->
