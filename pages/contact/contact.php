@@ -2,11 +2,11 @@
     <h2>-contact us-</h2>
     <div class="row">
         <div class="col md-6">
-            <form class="col g-3 needs-validation" novalidate>
+            <form action="sendmail.php" class="col g-3 needs-validation" novalidate method="post">
 
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Full name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your full name" required>
+                    <input type="text" name="fullname" class="form-control" id="validationCustom01" placeholder="Enter your full name" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
@@ -19,7 +19,7 @@
                     <label for="validationCustomUsername" class="form-label">E-mail</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="email" class="form-control" id="validationCustomUsername" placeholder="Enter your e-mail" aria-describedby="inputGroupPrepend" required>
+                        <input type="email" name="email" class="form-control" id="validationCustomUsername" placeholder="Enter your e-mail" aria-describedby="inputGroupPrepend" required>
                         <div class="invalid-feedback">
                             Please enter a valid email.
                         </div>
@@ -28,7 +28,7 @@
 
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Phone No.</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your current address" required>
+                    <input type="text" name="phone" class="form-control" id="validationCustom01" placeholder="Enter your current address" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
@@ -39,7 +39,7 @@
 
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Message</label>
-                    <textarea type="text" class="form-control" id="validationCustom01" placeholder="Message" required></textarea>
+                    <textarea type="text" name="message" class="form-control" id="validationCustom01" placeholder="Message" required></textarea>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="col-12">
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    <button class="btn btn-primary" type="submit" name="btn_submit">Submit form</button>
                 </div>
 
             </form>
