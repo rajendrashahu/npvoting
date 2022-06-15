@@ -1,13 +1,82 @@
 <?php
 //print_r($_POST); die();
+$company_email = 'rjn.s2009@gmail.com';
 if (isset($_POST['btn_submit'])){
-    $to      = 'rjn.s2009@gmail.com';
+    
+    $fullname = isset($_POST['fullname'])?$_POST['fullname']:'';
+    $email = isset($_POST['email'])?$_POST['email']:'';
+    $phone = isset($_POST['phone'])?$_POST['phone']:'';
+    $message = isset($_POST['message'])?$_POST['message']:'';
+    $terms_condition = isset($_POST['terms_condition'])?$_POST['terms_condition']:'';
+    $ipAddress = $_SERVER['REMOTE_ADDR'];
+    $contact_date = date('Y-m-d H:i:s');
+
+//    $to      = $company_email;
+
+    $to = implode(", ", [
+        $company_email,
+        $email
+    ]);
+    $cc = implode(", ", [
+//        "third@doge.com",
+//        "forth@doge.com"
+    ]);
+    $bcc = implode(", ", [
+//        "fifth@doge.com",
+//        "sixth@doge.com"
+    ]);
+
     $subject = 'Contact from Nepal Voting';
-    $message = 'hello test';
-    $headers = 'From: info@pioneersoftech.com'."\r\n".
-        'Reply-To: info@pioneersoftech.com'."\r\n".
-        'X-Mailer: PHP/' . phpversion();
-    $result = mail($to, $subject, $message, $headers);
+    $html = '<html><body>';
+    $html .= '<div class="table" style="margin: 20px 0;">
+                    <table style="width: 100%; border:1px solid #eeeeee; margin-bottom: 20px;">
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Full Name</td>
+                            <td style="padding: 5px;">'.$fullname.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Email</td>
+                            <td style="padding: 5px;">'.$email.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Phone</td>
+                            <td style="padding: 5px;">'.$phone.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Message</td>
+                            <td style="padding: 5px;">'.$message.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Terms & Conditions</td>
+                            <td style="padding: 5px;">'.$terms_condition.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Contact Date</td>
+                            <td style="padding: 5px;">'.$contact_date.'</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; color: #968832; font-weight: bold;">Register IP Address</td>
+                            <td style="padding: 5px;">'.$ipAddress.'</td>
+                        </tr>
+                    </table>
+                </div>';
+    $html .= '</body></html>';
+
+    // Carriage return type (RFC).
+    $eol = "\r\n";
+    $headers  = "Reply-To: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
+    $headers .= "Return-Path: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
+    $headers .= "From: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
+    $headers .= "MIME-Version: 1.0".$eol;
+    $headers .= "Content-type: text/html; charset=iso-8859-1".$eol;
+    $headers .= "Cc: $cc".$eol;
+    $headers .= "Bcc: $bcc".$eol;
+
+    $headers .= "X-Priority: 3".$eol;
+    $headers .= "X-Mailer: PHP".phpversion().$eol;
+
+
+    $result = mail($to, $subject, $html, $headers);
     if($result == true){
         $return = "true";
         $response = "email has been sent";

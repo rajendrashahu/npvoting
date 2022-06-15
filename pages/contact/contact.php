@@ -50,7 +50,7 @@
 
                 <div class="col-12">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <input class="form-check-input" type="checkbox" name="terms_condition" value="agree" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">
                             Agree to terms and conditions
                         </label>
