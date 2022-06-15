@@ -6,22 +6,19 @@
 
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Full name</label>
-                    <div class="input-group has-validation">
-                        <span class="input-group-text"><i class="fa fa-user"></i></span>
-                        <input type="text" name="fullname" class="form-control" id="validationCustom01" placeholder="Enter your full name" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                            Please enter a valid Name.
-                        </div>
+                    <input type="text" name="fullname" class="form-control" id="validationCustom01" placeholder="Enter your full name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please enter a valid Name.
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <label for="validationCustomUsername" class="form-label">E-mail</label>
                     <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-at"></i></span>
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
                         <input type="email" name="email" class="form-control" id="validationCustomUsername" placeholder="Enter your e-mail" aria-describedby="inputGroupPrepend" required>
                         <div class="invalid-feedback">
                             Please enter a valid email.
@@ -31,15 +28,12 @@
 
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Phone No.</label>
-                    <div class="input-group has-validation">
-                        <span class="input-group-text"><i class="fa fa-mobile"></i></span>
-                        <input type="text" name="phone" class="form-control" id="validationCustom01" placeholder="Enter your current address" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                            Please provide a valid phone number.
-                        </div>
+                    <input type="text" name="phone" class="form-control" id="validationCustom01" placeholder="Enter your current address" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please provide a valid phone number.
                     </div>
                 </div>
 
