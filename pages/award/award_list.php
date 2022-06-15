@@ -88,10 +88,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 justify-content-left d-flex mb-5 mb-lg-0">
+              
+                <div class="col-lg-6 justify-content-left d-flex mb-5 mb-lg-0"> 
                     <div class="blockabout">
                         <div class="blockabout-inner text-center text-sm-start">
                             <div class="title-big pb-3 mb-3">
+
                                 <h3>ABOUT ME</h3>
                             </div>
                             <p class="description-p text-muted pe-0 pe-lg-0">
@@ -108,7 +110,8 @@
                 </div>
 
             </div>
+
         </div>
     </section>
-    
+
 </div>

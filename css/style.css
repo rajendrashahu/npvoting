@@ -171,6 +171,22 @@ p {
     margin-right: 6em;
 }
 
+/*device detail*/
+
+.device-detail .container .row .col-md-5 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.device-detail .container .row .mt-4 {
+    margin-top: 1.5rem !important;
+    justify-content: center !important;
+}
+
+.img-responsive {
+    width: 50%;
+}
+
 /* Device list*/
 
 .card-img,
@@ -277,8 +293,8 @@ p {
     border-top: 28.8675px solid #1D0DE1;
 }
 
-.mt-3 {
-    text-align: start;
+.device-detail .container .row .mt-3 {
+    text-align: center !important;
     text-indent: 0%;
 }
 
