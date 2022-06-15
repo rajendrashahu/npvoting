@@ -166,9 +166,9 @@ p {
 
 /*Features Section*/
 
-.feature-section {
-    margin-left: 6em;
-    margin-right: 6em;
+.feature-section .container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*device detail*/
