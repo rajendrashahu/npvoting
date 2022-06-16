@@ -50,7 +50,7 @@
 
         </div>
         <div class="readmore-btn">
-            <a href="about.php" class="next">READ MORE &raquo;</a>
+            <a href="about.jsp" class="next">READ MORE &raquo;</a>
         </div>
     </div>
 </div>

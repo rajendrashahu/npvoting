@@ -16,22 +16,22 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="index.php">HOME</a>
+              <a href="home.jsp">HOME</a>
             </li>
             <li>
-              <a href="about.php">ABOUT</a>
+              <a href="about.jsp">ABOUT</a>
             </li>
             <li>
-              <a href="timeline_list.php">TIMELINE</a>
+              <a href="timeline.jsp">TIMELINE</a>
             </li>
             <li>
-              <a href="certification_list.php">CERTIFICATION</a>
+              <a href="certification.jsp">CERTIFICATION</a>
             </li>
             <li>
-              <a href="privacy_policy.php">PRIVACY POLICY</a>
+              <a href="privacy-policy.jsp">PRIVACY POLICY</a>
             </li>
             <li>
-              <a href="terms.php">TERMS & CONDITION</a>
+              <a href="terms.jsp">TERMS & CONDITION</a>
             </li>
           </ul>
 
@@ -47,16 +47,16 @@
 
           <ul class="list-unstyled">
             <li>
-              <a href="award_list.php">AWARDS & RECOGNITION</a>
+              <a href="award.jsp">AWARDS & RECOGNITION</a>
             </li>
             <li>
-              <a href="feedback.php">CUSTOMER FEEDBACK</a>
+              <a href="feedback.jsp">CUSTOMER FEEDBACK</a>
             </li>
             <li>
-              <a href="gallery_list.php">GALLERY</a>
+              <a href="gallery.jsp">GALLERY</a>
             </li>
             <li>
-              <a href="news_list.php">NEWS & EVENTS</a>
+              <a href="news.jsp">NEWS & EVENTS</a>
             </li>
           </ul>
 
@@ -71,8 +71,8 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Certified From</h5>
 
           <ul class="list-unstyled">
-            <a href="default.asp"><img src="img/ISO_Ramlaxman.png" alt="HTML tutorial" style="width:37%; height:37%;"></a>
-            <a href="default.asp"><img src="img/Patent_Copyright logo.png" alt="HTML tutorial" style="width:40%; height: 40%;"></a>
+            <a href="javascript:void(0);"><img src="img/ISO_Ramlaxman.png" alt="HTML tutorial" style="width:37%; height:37%;"></a>
+            <a href="javascript:void(0);"><img src="img/Patent_Copyright logo.png" alt="HTML tutorial" style="width:40%; height: 40%;"></a>
           </ul>
 
         </div>
@@ -104,7 +104,7 @@
     <div class="footer-copyright text-center py-3">
       <div class="copywright-owner">
         © 2020 Copyright:
-        <a href="index.php"> <b>Nepal Voting Machine</b>.</a>
+        <a href="home.jsp"> <b>Nepal Voting Machine</b>.</a>
         All Rights Reserved.
       </div>
 

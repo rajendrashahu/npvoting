@@ -15,28 +15,28 @@
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="device_detail.php"><img class="img-fluid" src="img/device-img-01.jpg" alt="device image"></a>
-                        <h5 class="font-weight-medium mt-3"><a href="device_detail.php" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
+                        <a href="device-detail.jsp"><img class="img-fluid" src="img/device-img-01.jpg" alt="device image"></a>
+                        <h5 class="font-weight-medium mt-3"><a href="device-detail.jsp" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="device_detail.php" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="device-detail.jsp" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="device_detail.php"><img class="img-fluid" src="img/device-img-3.jpg" alt="device image"></a>
-                        <h5 class="font-weight-medium mt-3"><a href="device_detail.php" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
+                        <a href="device-detail.jsp"><img class="img-fluid" src="img/device-img-3.jpg" alt="device image"></a>
+                        <h5 class="font-weight-medium mt-3"><a href="device-detail.jsp" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="device_detail.php" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="device-detail.jsp" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
                 <!-- Column -->
                 <div class="col-md-4 on-hover">
                     <div class="card border-0 mb-4">
-                        <a href="device_detail.php"><img class="img-fluid" src="img/device-img-4.jpg" alt="device image"></a>
-                        <h5 class="font-weight-medium mt-3"><a href="device_detail.php" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
+                        <a href="device-detail.jsp"><img class="img-fluid" src="img/device-img-4.jpg" alt="device image"></a>
+                        <h5 class="font-weight-medium mt-3"><a href="device-detail.jsp" class="text-decoration-none link">Voting Machine Device | मलाई त made in नेपाल मै गर्व छ |</a></h5>
                         <p class="mt-3">Kathmandu, Nepal</p>
-                        <a href="device_detail.php" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
+                        <a href="device-detail.jsp" class="text-decoration-none linking text-themecolor mt-2">read more &nbsp; &raquo;</a>
                     </div>
                 </div>
             </div>

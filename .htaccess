@@ -1,0 +1,49 @@
+Options All
+Options +FollowSymLinks -Indexes
+RewriteEngine on
+
+RewriteRule ^home.jsp$ index.php [L]
+RewriteRule ^feature.jsp$ feature.php [L]
+RewriteRule ^device.jsp$ device_list.php [L]
+RewriteRule ^timeline.jsp$ timeline_list.php [L]
+RewriteRule ^gallery.jsp$ gallery_list.php [L]
+RewriteRule ^certification.jsp$ certification_list.php [L]
+RewriteRule ^award.jsp$ award_list.php [L]
+RewriteRule ^feedback.jsp$ feedback.php [L]
+RewriteRule ^news.jsp$ news_list.php [L]
+RewriteRule ^contact.jsp$ contact.php [L]
+
+RewriteRule ^about.jsp$ about.php [L]
+RewriteRule ^device-detail.jsp$ device_detail.php [L]
+RewriteRule ^privacy-policy.jsp$ privacy_policy.php [L]
+RewriteRule ^terms.jsp$ terms.php [L]
+
+#RewriteRule ^userpermission.jsp$ index.php?_page=preference&mod=permission [L]
+#RewriteRule ^userpermission!([\w\-\.\+]+)!([\w\-\.\+]+).jsp$  index.php?mod=$1&_page=$2 [L]
+#
+#RewriteRule ^userpermissionForUser!([\w\-\.\+]+)$ index.php?_page=preference&mod=permission&user_id=$1 [L]
+#RewriteRule ^userpermissionForUser!([0-9]+)$ index.php?_page=preference&mod=permission&user_id=$1 [L]
+#RewriteRule ^user-permission!([0-9]+)!([0-9]+).jsp$  index.php?_page=preference&mod=permission&user_id=$1&user_type_id=$2 [L]
+
+
+
+IndexIgnore */*
+ErrorDocument 400 /error404.html
+#set a default page by DirectoryIndex
+DirectoryIndex index.php
+
+#User-agent:*
+#Disallow: /includes
+<IfModule mod_php5.c>
+php_value post_max_size 5M
+php_value upload_max_filesize 5M
+php_value memory_limit 300M
+php_value max_execution_time 259200
+php_value max_input_time 259200
+php_value session.gc_maxlifetime 100
+</IfModule>
+<FilesMatch "\.(ico|pdf|flv|jpe?g|png|gif|js|css|swf)$">
+#ExpiresActive On
+#ExpiresDefault "access plus 12 month"
+</FilesMatch>
+
