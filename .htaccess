@@ -18,15 +18,6 @@ RewriteRule ^device-detail.jsp$ device_detail.php [L]
 RewriteRule ^privacy-policy.jsp$ privacy_policy.php [L]
 RewriteRule ^terms.jsp$ terms.php [L]
 
-#RewriteRule ^userpermission.jsp$ index.php?_page=preference&mod=permission [L]
-#RewriteRule ^userpermission!([\w\-\.\+]+)!([\w\-\.\+]+).jsp$  index.php?mod=$1&_page=$2 [L]
-#
-#RewriteRule ^userpermissionForUser!([\w\-\.\+]+)$ index.php?_page=preference&mod=permission&user_id=$1 [L]
-#RewriteRule ^userpermissionForUser!([0-9]+)$ index.php?_page=preference&mod=permission&user_id=$1 [L]
-#RewriteRule ^user-permission!([0-9]+)!([0-9]+).jsp$  index.php?_page=preference&mod=permission&user_id=$1&user_type_id=$2 [L]
-
-
-
 IndexIgnore */*
 ErrorDocument 400 /error404.html
 #set a default page by DirectoryIndex
