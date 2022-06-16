@@ -13,9 +13,9 @@
 				<div class="col-md-8">
 					<div class="subscribe-wrapper subscribe2-wrapper mb-15">
 						<div class="subscribe-form">
-							<form class="needs-validation" action="#" method="POST" id="subscribe_form" onclick="return checkSubscribe()">
+							<form class="needs-validation" action="sendmail_subscribe.php" method="POST" id="subscribe_form" onclick="return checkSubscribe()">
 								<button type="submit" name="btn_subscribe">subscribe &raquo;</button>
-								<input type="email" name="subscribe" id="subscribe" placeholder="Enter your email address" required>
+								<input type="email" name="email" id="email" placeholder="Enter your email address" required>
 							</form>
 						</div>
 					</div>
