@@ -1,6 +1,6 @@
 <?php
 //print_r($_POST); die();
-$company_email = 'rjn.s2009@gmail.com';
+$company_email = 'info@technosales.com.np';
 if (isset($_POST['btn_submit'])){
     
     $fullname = isset($_POST['fullname'])?$_POST['fullname']:'';
@@ -14,19 +14,18 @@ if (isset($_POST['btn_submit'])){
 //    $to      = $company_email;
 
     $to = implode(", ", [
-        $company_email,
         $email
     ]);
     $cc = implode(", ", [
-//        "third@doge.com",
+        $company_email,
 //        "forth@doge.com"
     ]);
-    $bcc = implode(", ", [
-//        "fifth@doge.com",
-//        "sixth@doge.com"
-    ]);
+//    $bcc = implode(", ", [
+////        "fifth@doge.com",
+////        "sixth@doge.com"
+//    ]);
 
-    $subject = 'Contact from Nepal Voting';
+    $subject = 'Contact Nepal Voting Machine';
     $html = '<html><body>';
     $html .= '<div class="table" style="margin: 20px 0;">
                     <table style="width: 100%; border:1px solid #eeeeee; margin-bottom: 20px;">
@@ -64,13 +63,13 @@ if (isset($_POST['btn_submit'])){
 
     // Carriage return type (RFC).
     $eol = "\r\n";
-    $headers  = "Reply-To: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
-    $headers .= "Return-Path: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
-    $headers .= "From: Rajendra Shahu <rjn.s2009@gmail.com>".$eol;
+    $headers  = "Reply-To: Technology Sales <info@technosales.com.np>".$eol;
+    $headers .= "Return-Path: Technology Sales <info@technosales.com.np>".$eol;
+    $headers .= "From: Technology Sales <info@technosales.com.np>".$eol;
     $headers .= "MIME-Version: 1.0".$eol;
     $headers .= "Content-type: text/html; charset=iso-8859-1".$eol;
     $headers .= "Cc: $cc".$eol;
-    $headers .= "Bcc: $bcc".$eol;
+//    $headers .= "Bcc: $bcc".$eol;
 
     $headers .= "X-Priority: 3".$eol;
     $headers .= "X-Mailer: PHP".phpversion().$eol;
