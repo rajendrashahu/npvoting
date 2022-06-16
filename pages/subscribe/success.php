@@ -13,9 +13,9 @@ if (isset($_GET['return']) && $_GET['return'] = 'true') { ?>
             <div class="row text-center">
                 <div class="col-sm-6 col-sm-offset-3">
                     <br><br>
-                    <h2 style="color:#0fad00">Successfylly Completed !</h2>
+                    <h2 style="color:#0fad00">Your Subscription has been Successfully sent to Nepal Voting Machine !</h2>
                     <img src="img/download.png">
-                    <h3>Dear, Keshav Khatri</h3>
+                    <h3>Dear, <?php echo isset($_GET['email'])?$_GET['email']:''; ?></h3>
                     <p style="font-size:20px;color:#5C5C5C;">Thank you for verifying your E-mail. We have sent you an email with the details</p>
                     <a href="https://www.pioneersoftech.com/npvoting" class="btn btn-success"> Get Back To Home </a>
                     <br><br>

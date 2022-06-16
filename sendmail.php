@@ -80,7 +80,7 @@ if (isset($_POST['btn_submit'])){
     if($result == true){
         $return = "true";
         $response = "email has been sent";
-        header("Location: https://www.pioneersoftech.com/npvoting/success.php?response=".$response."&return=".$return);
+        header("Location: https://www.pioneersoftech.com/npvoting/success.php?response=".$response."&return=".$return."&name=".$fullname);
         exit();
     }else{
         $return = "fail";

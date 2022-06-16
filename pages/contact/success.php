@@ -11,10 +11,10 @@ if (isset($_GET['return']) && $_GET['return'] = 'true') { ?>
             <div class="row text-center">
                 <div class="col-sm-6 col-sm-offset-3">
                     <br><br>
-                    <h2 style="color:#0fad00">Success</h2>
+                    <h2 style="color:#0fad00">Your Contact details have been Successfully sent to Nepal Voting Machine !</h2>
                     <img src="img/download.png">
-                    <h3>Dear, Keshav Khatri</h3>
-                    <p>Thank you for verifying your E-mail. We have sent you an email with your details</p>
+                    <h3>Dear, <?php echo isset($_GET['name'])?$_GET['name']:''; ?></h3>
+                    <p>Thank you for contacting us. We will get back to you as soon as possible.</p>
                     <a href="https://www.pioneersoftech.com/npvoting" class="btn btn-success"> Get Back To Home </a>
                     <br><br>
                 </div>

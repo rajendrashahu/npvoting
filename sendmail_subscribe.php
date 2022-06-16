@@ -60,7 +60,7 @@ if (isset($_POST['btn_subscribe'])){
     if($result == true){
         $return = "true";
         $response = "email has been sent";
-        header("Location: https://www.pioneersoftech.com/npvoting/success_subscribe.php?response=".$response."&return=".$return);
+        header("Location: https://www.pioneersoftech.com/npvoting/success_subscribe.php?response=".$response."&return=".$return."&email=".$email);
         exit();
     }else{
         $return = "fail";

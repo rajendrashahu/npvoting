@@ -5,8 +5,8 @@
 
 				<div class="col-md-4">
 					<div class="subscribe-text mb-15">
-						<span>JOIN OUR NEWSLETTER</span>
-						<h2>subscribe newsletter</h2>
+<!--						<span>JOIN OUR NEWSLETTER</span>-->
+						<h3>subscribe to our newsletter</h3>
 					</div>
 				</div>
 
@@ -14,7 +14,7 @@
 					<div class="subscribe-wrapper subscribe2-wrapper mb-15">
 						<div class="subscribe-form">
 							<form class="needs-validation" action="sendmail_subscribe.php" method="POST" id="subscribe_form" onclick="return checkSubscribe()">
-								<button type="submit" name="btn_subscribe">subscribe &raquo;</button>
+								<button type="submit" name="btn_subscribe">Subscribe &raquo;</button>
 								<input type="email" name="email" id="email" placeholder="Enter your email address" required>
 							</form>
 						</div>

@@ -720,6 +720,10 @@ img.zoom {
 .subscribe-area {
     background-image: linear-gradient(to top, #00BDE1 0%, #0062ff 100%);
 }
+.subscribe-text.mb-15 {
+    color: #FFFFFF;
+    padding-top: 5px;
+}
 
 .pb-50 {
     padding-bottom: 50px;
