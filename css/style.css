@@ -110,6 +110,46 @@
     opacity: 0.655;
 }
 
+/* Vote Count Number */
+.voting-section {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.vote-count {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 1%;
+    margin-bottom: 3%;
+
+}
+
+
+.vote-num {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background: #1D0DE1;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #e3e3e3;
+    align-items: center;
+}
+
+.vote-num p {
+    margin: 0%;
+    padding: 0%;
+    transform: translateY(50px);
+    font-size: 25px;
+    color: white;
+    text-indent: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
 
 /*about section*/
 h2 {
@@ -720,6 +760,7 @@ img.zoom {
 .subscribe-area {
     background-image: linear-gradient(to top, #00BDE1 0%, #0062ff 100%);
 }
+
 .subscribe-text.mb-15 {
     color: #FFFFFF;
     padding-top: 5px;
