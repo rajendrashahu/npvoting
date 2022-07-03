@@ -4,8 +4,8 @@
 			<div class="row">
 
 				<div class="col-md-4">
-					<div class="subscribe-text mb-15">
-<!--						<span>JOIN OUR NEWSLETTER</span>-->
+					<div class="subscribe-text mb-15 text-center">
+						<!--						<span>JOIN OUR NEWSLETTER</span>-->
 						<h3>subscribe to our newsletter</h3>
 					</div>
 				</div>

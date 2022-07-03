@@ -230,8 +230,10 @@ p {
     justify-content: center !important;
 }
 
-.img-responsive {
-    width: 50%;
+.dtl-img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Device list*/
@@ -750,6 +752,10 @@ img.zoom {
     font-size: 30px !important;
 }
 
+.table-responsive {
+    overflow: hidden;
+}
+
 /*add css to award section*/
 
 
@@ -1055,6 +1061,10 @@ img.zoom {
         padding-left: 10px;
         width: 50%;
 
+    }
+
+    .footer-copyright.text-center.py-3{
+        display: block;
     }
 }
 

@@ -103,14 +103,11 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
       <div class="copywright-owner">
-        © 2020 Copyright:
-        <a href="home.jsp"> <b>Nepal Voting Machine</b>.</a>
-        All Rights Reserved.
+        © 2020 Copyright:<a href="home.jsp"> <b>Nepal Voting Machine</b>. </a>All Rights Reserved.
       </div>
 
       <div class="copywright-design">
-        Designed and Maintained by
-        <a href="https://www.pioneersoftech.com" target="_blank"><b>pioneesoftech.com</b>.</a>
+        Designed and Maintained by <a href="https://www.pioneersoftech.com" target="_blank"><b>pioneesoftech.com</b>.</a>
       </div>
       <!-- Copyright -->
 
