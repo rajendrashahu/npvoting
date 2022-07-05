@@ -242,7 +242,7 @@ p {
 .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
-    height: 18em;
+    /* height: 288px; */
 }
 
 .py-5 {
@@ -277,7 +277,7 @@ p {
 }
 
 .blog-home2 h5 {
-    height: 65px;
+    height: 85px;
     line-height: 22px;
     font-size: 18px;
 }
@@ -745,6 +745,8 @@ img.zoom {
 .award-section {
     padding-top: 2em;
     padding-bottom: 2em;
+    background-color: #F0FFFF;
+    padding: 1em;
 }
 
 .pt-3 a i {
@@ -754,6 +756,11 @@ img.zoom {
 
 .table-responsive {
     overflow: hidden;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+    align-self: center;
 }
 
 /*add css to award section*/
@@ -1063,7 +1070,7 @@ img.zoom {
 
     }
 
-    .footer-copyright.text-center.py-3{
+    .footer-copyright.text-center.py-3 {
         display: block;
     }
 }

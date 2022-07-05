@@ -1,4 +1,4 @@
-<div class="award-section" style="background-color: #F0FFFF; padding: 1em;">
+<div class="award-section">
     <h2>-award & recognition-</h2>
     <section id="about-section" class="pt-4">
         <div class="container wrapabout">
@@ -7,89 +7,49 @@
                 <div class="col-lg-6 mb-4 mt-lg-0">
                     <div class="container">
                         <div class="row">
-                            <div class="table-responsive">
-                                <table class="table">
-
-                                    <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-img">
-                                                    <img src="img/gold-trophy.png" height="90em" width="100em" alt="trophy" />
-                                                </div>
-                                            </th>
-
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3>award title</h3>
-                                                    <h6>16 Nov 22</h6>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="event-img">
-                                                    <img src="img/award.jpg" height="90em" width="100em" alt="" />
-                                                </div>
-                                            </td>
-
-                                    </tbody>
-                                </table>
+                            <div class="row 1 mb-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="img/gold-trophy.png" alt="trophy">
+                                </div>
+                                <div class="col-md-4 text-center align-middle">
+                                    <h3>award-title</h3>
+                                    <h6>16 Nov 22</h6>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img class="img-fluid" src="img/award.jpg" alt="awards image">
+                                </div>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table">
-
-                                    <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-img">
-                                                    <img src="img/gold-trophy.png" height="90em" width="100em" alt="trophy" />
-                                                </div>
-                                            </th>
-
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3>award title</h3>
-                                                    <h6>16 Nov 22</h6>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="event-img">
-                                                    <img src="img/award.jpg" height="90em" width="100em" alt="" />
-                                                </div>
-                                            </td>
-
-                                    </tbody>
-                                </table>
+                            <hr>
+                            <div class="row 2 mb-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="img/gold-trophy.png" alt="trophy">
+                                </div>
+                                <div class="col-md-4 text-center align-middle">
+                                    <h3>award-title</h3>
+                                    <h6>16 Nov 22</h6>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img class="img-fluid" src="img/award.jpg" alt="awards image">
+                                </div>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table">
-
-                                    <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-img">
-                                                    <img src="img/gold-trophy.png" height="90em" width="100em" alt="trophy" />
-                                                </div>
-                                            </th>
-
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3>award title</h3>
-                                                    <h6>16 Nov 22</h6>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="event-img">
-                                                    <img src="img/award.jpg" height="90em" width="100em" alt="" />
-                                                </div>
-                                            </td>
-
-                                    </tbody>
-                                </table>
+                            <hr>
+                            <div class="row 3 mb-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="img/gold-trophy.png" alt="trophy">
+                                </div>
+                                <div class="col-md-4 text-center align-middle">
+                                    <h3>award-title</h3>
+                                    <h6>16 Nov 22</h6>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img class="img-fluid" src="img/award.jpg" alt="awards image">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-              
-                <div class="col-lg-6 justify-content-left d-flex mb-5 mb-lg-0"> 
+
+                <div class="col-lg-6 justify-content-left d-flex mb-lg-0">
                     <div class="blockabout">
                         <div class="blockabout-inner text-center text-sm-start">
                             <div class="title-big pb-3">
